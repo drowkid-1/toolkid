@@ -47,7 +47,7 @@ Dependencies(){
 		else
 			yes|pkg install curl
 		fi
-		if [ -x ${USR}/bin/drlwk ]; then
+		if [ -x ${USR}/bin/urlkid ]; then
 			PWD=$(pwd)
 		else
 			echo -e "#!/bin/bash" >> ${USR}/bin/urlkid
